@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "strict": false,
+    "alwaysStrict": false,
+    "paths": {
+      "@src/*": ["*"],
+      "@common/*": ["common/*"],
+      "@documentation/*": ["@documentation/*"],
+      "@config/*": ["config/*"],
+      "@roles/*": ["@security/acl-roles/*"],
+      "@guards/*": ["@security/guards/*"],
+      "@decorators/*": ["@security/decorators/*"],
+      "@modules/*": ["@modules/*"],
+      "@database/*": ["@database/*"],
+      "@constants": ["server.constants.ts"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

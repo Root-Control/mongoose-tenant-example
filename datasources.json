@@ -1,0 +1,11 @@
+[
+    {
+        "_id": "5f4ca434ebc3c3e6b2b4ef12",
+        "name": "maneki",
+        "user": "hpalacios",
+        "password": "UmnGfKVEljII6jjr",
+        "protocol": "mongodb+srv",
+        "cluster": "hirotesting-6ribk.mongodb.net",
+        "isAtlas": true
+    }
+]
